@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "Eslint configs",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "default": "./index.js"
+    },
+    "./oclif": {
+      "default": "./oclif.mjs"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@eslint/compat": "^1.2.9",
+    "eslint-config-oclif": "^6.0.54",
+    "eslint-config-prettier": "^10.1.2"
+  }
+}
